@@ -1,0 +1,82 @@
+.casa{
+    border: 1px solid black;
+    width: 550px;
+    height: 500px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 65% 1fr;
+     grid-template-rows: 1fr 1fr;
+     background-image: url("../assets/.madera.jpeg");
+}
+
+.segundo-nivel{
+    background-image: url("../assets/.violeta.jpeg");
+    background-size: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ventana{
+    background-image: url("../assets/.ventana.jpeg");
+    background-size: 100%;
+
+    width: 90%;
+    height: 90%;
+    background-color: blue;
+}
+
+.primer-nivel{
+    background-image: url("../assets/.amarillo.jpeg");
+    background-size: 50%;
+
+    border-top: 5px solid peru;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.puerta{
+    width: 115px;
+    height: 130px;
+    background-color: brown;
+
+    background-image: url("../assets/.puerta.jpeg");
+    background-size: 100%;
+}
+
+.garage{
+    background-image: url("../assets/.garage.jpeg");
+    background-size: 50%;
+
+    border-left: 5px solid chartreuse;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.porton{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    background-image: url("../assets/.porton.jpeg");
+}
+
+.techo{
+    display: flex;
+    align-items: end;
+}
+.pared{
+    width: 100%;
+    height: 25%;
+    background-color: fuchsia;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-image: url("../assets/.pared.jpesg");
+}
+
+.pared div{
+    border: 1px solid black;
+}
